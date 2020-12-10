@@ -1,4 +1,4 @@
-#IMG CREDITS: @WhySooSerious
+#IMG CREDITS: @Sensei_nex
 import asyncio
 from telethon import events
 from uniborg.util import admin_cmd
@@ -14,7 +14,7 @@ pm_caption += "🔶**Current Branch** : `master`\n"
 pm_caption += "🔷*ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ OS** : `2.14`\n"
 pm_caption += f"🔹**My Boss** : {DEFAULTUSER} \n"
 pm_caption += "🔸**MAh Lord 😎 : [This nub](https://t.me/sensei_nex)\n\n"
-pm_caption += "👀 Wanna have your own [Senseibot]https://github.com/SenseiOfficial/Sensei-BOT)\n"
+pm_caption += "👀 Wanna have your own [Senseibot](https://github.com/SenseiOfficial/Sensei-BOT)\n"
 
 @borg.on(admin_cmd(pattern=r"alive"))
 async def friday(alive):
