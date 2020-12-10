@@ -61,7 +61,7 @@ def register(**args):
                 return
 
             if groups_only and not check.is_group:
-                await check.respond("`I don't think this is a group.`")
+                await check.respond("`Abbe nigge , ye kaha le krr aagya , Ye koi group nahi hai.`")
                 return
 
             try:
@@ -86,7 +86,7 @@ def register(**args):
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
                     text = "**USERBOT ERROR REPORT**\n"
-                    link = "[PaperplaneExtended Support Chat](https://t.me/PaperplaneExtendedSupport)"
+                    link = "[SenseiMAXprojects](https://t.me/senseiMAXprojects)"
                     text += "If you want to, you can report it"
                     text += f"- just forward this message to {link}.\n"
                     text += "Nothing is logged except the fact of error and date\n"
