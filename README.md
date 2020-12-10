@@ -5,7 +5,7 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 
-~ The G.O.A.T. Legend bot is again on fire 🔥.Deploy It now to experience the most smooth and fast telegram userbot. With more than 300+ Plugins to give a mindblowing experience and a lote more . Join the support channel for regualr updates.
+~ The G.O.A.T. Senseibot is again on fire 🔥.Deploy It now to experience the most smooth and fast telegram userbot. With more than 300+ Plugins to give a mindblowing experience and a lote more . Join the support channel for regualr updates.
 💔💔 . 
 
 ## By Team ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ 
@@ -53,7 +53,7 @@ Fortunately there are no Mandatory vars for the UniBorg Support Config.
 - The userbot will not work without setting the mandatory vars.
 
 ## CREDITS
-   -[Sensei](https://t.me/Sensei_nex)🔥🔥 Owner of this repo 🔥🔥
+   -[Sensei](https://t.me/Sensei_nex)🔥🔥 Owner of this BOT 🔥🔥
          
 
 
