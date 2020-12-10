@@ -1,5 +1,7 @@
 from userbot import CMD_LIST
 from userbot.utils import admin_cmd
+import sys
+from telethon import events, functions, __version__
 
 @command(pattern="^.help ?(.*)")
 #@borg.on(admin_cmd(pattern=r"help ?(.*)"))
@@ -10,7 +12,7 @@ async def cmd_list(event):
         if tgbotusername is None or input_str == "text":
             string = ""
             for i in CMD_LIST:
-                string += "⚡ " + i + "\n"
+                string += "😎 " + i + "\n"
                 for iter_list in CMD_LIST[i]:
                     string += "    `" + str(iter_list) + "`"
                     string += "\n"
@@ -39,7 +41,8 @@ async def cmd_list(event):
             else:
                 await event.edit(input_str + " is not a valid plugin!")
         else:
-            help_string = """Userbot Modules For\n[CBA-USERBOT](https://telegram.dog/CBA_USERBOT)\n`Userbot Helper to reveal all the modules`"""
+            help_string = """Userbot Helper.. \nProvided by [ᔕᗴᑎᔕᗴᎥbot](https://t.me/SenseiMAXprojects)\n`→𝐔𝐬𝐞𝐫𝐛𝐨𝐭 𝐇𝐞𝐥𝐩𝐞𝐫 𝐢𝐧 𝐚𝐬𝐬𝐢𝐬𝐭𝐢𝐧𝐠 𝐲𝐨𝐮 𝐡𝐨𝐰 𝐭𝐨 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐚𝐧𝐝 𝐭𝐨 𝐫𝐞𝐯𝐞𝐚𝐥 𝐚𝐥𝐥 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐲𝐨𝐮 𝐫𝐞𝐪𝐮𝐢𝐫𝐞
+→`"""
             results = await bot.inline_query(  # pylint:disable=E0602
                 tgbotusername,
                 help_string
@@ -50,3 +53,19 @@ async def cmd_list(event):
                 hide_via=True
             )
             await event.delete()
+
+@borg.on(admin_cmd(pattern="syntax (.*)"))
+async def _(event):
+    if event.fwd_from:
+        return
+    plugin_name = event.pattern_match.group(1)
+    if plugin_name in borg._plugins:
+        help_string = borg._plugins[plugin_name].__doc__
+        unload_string = f"Use `.unload {plugin_name}` to remove this plugin.\n           © @ᔕᗴᑎᔕᗴᎥbot"
+        if help_string:
+            plugin_syntax = f"Syntax for plugin **{plugin_name}**:\n\n{help_string}\n{unload_string}"
+        else:
+            plugin_syntax = f"No DOCSTRING has been setup for {plugin_name} plugin."
+    else:
+        plugin_syntax = "Enter valid **Plugin** name.\nDo `.exec ls stdplugins` or `.helpme` to get list of valid plugin names else , GTFO."
+    await event.edit(plugin_syntax)
