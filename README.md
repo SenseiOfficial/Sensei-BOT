@@ -5,7 +5,7 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 
-~ The G.O.A.T. Senseibot is again on fire 🔥.Deploy It now to experience the most smooth and fast telegram userbot. With more than 300+ Plugins to give a mindblowing experience and a lote more . Join the support channel for regualr updates.
+~ The G.O.A.T. Senseibot is again on fire 🔥. Deploy It now to experience the most smooth and fast telegram userbot. With more than 300+ Plugins to give a mind blowing experience and a lote more . Join the support channel for regular updates.
 💔💔 . 
 
 ## By Team ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ 
