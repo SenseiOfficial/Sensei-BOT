@@ -137,7 +137,7 @@ def generate_change_log(git_repo, diff_marker):
 
 async def deploy_start(bot, message, refspec, remote):
     await message.edit(RESTARTING_APP)
-    await message.edit("**✇Updating✇ ⚜️ѕєиѕєιвσт⚜️** \n**✮Version✮** : `3.0` \n**🔱ᴛᴇʟᴇᴛʜᴏɴ🔱** : `6.0.9` \n**⚠️ᴄᴜʀʀᴇɴᴛ ʙʀᴀɴᴄʜ⚠️** : `↼🄼🄰🅂🅃🄴🅁⇀` \n**🛡️𝖘𝖙𝖆𝖙𝖚𝖘🛡️** : ` ♾pdating and Restarting ♾` \n__You Can Do__ `.alive` __To Check If I am Alive !__✇")
+    await message.edit("**✇Updating✇ ⚜️ѕєиѕєιвσт⚜️** \n**✮Version✮** : `3.0` \n**🔱ᴛᴇʟᴇᴛʜᴏɴ🔱** : `6.0.9` \n**⚠️ᴄᴜʀʀᴇɴᴛ ʙʀᴀɴᴄʜ⚠️** : `↼🄼🄰🅂🅃🄴🅁⇀` \n**🛡️𝖘𝖙𝖆𝖙𝖚𝖘🛡️** : ` ♾Updating and Restarting ♾` \n__You Can Do__ `.alive` __To Check If I am Alive !__✇")
     remote.push(refspec=refspec)
     await bot.disconnect()
     os.execl(sys.executable, sys.executable, *sys.argv)
