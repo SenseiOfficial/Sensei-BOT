@@ -69,7 +69,7 @@ async def updater(message):
     )
 
     if not changelog:
-        await message.edit("**﹁﹁Updating Senseibot* \n**Version** : `2.0` \n**Telethon** : `1.15.0` \n**Status** : `«Pulling Updates»` \n『**Thank You For Using Senseibot !**』")
+        await message.edit("*✇Updating✇ ⚜️ѕєиѕєιвσт⚜️** \n**✮Version✮** : `3.0` \n**🔱ᴛᴇʟᴇᴛʜᴏɴ🔱** : `6.0.9` \n**⚠️ᴄᴜʀʀᴇɴᴛ ʙʀᴀɴᴄʜ⚠️** : `↼🄼🄰🅂🅃🄴🅁⇀` \n**🛡️𝖘𝖙𝖆𝖙𝖚𝖘🛡️** : `«Pulling Updates»` \n『**Thank You For Using Senseibot !**』")
         await asyncio.sleep(5)
  
     message_one = NEW_BOT_UP_DATE_FOUND.format(
@@ -137,7 +137,7 @@ def generate_change_log(git_repo, diff_marker):
 
 async def deploy_start(bot, message, refspec, remote):
     await message.edit(RESTARTING_APP)
-    await message.edit("**✇✇Updating Senseibot✇** \n**Version** : `2.0` \n**Telethon** : `1.15.0` \n**Branch** : `✇Master✇` \n**Status** : `✇Updating & Restarting` \n__You Can Do__ `.alive` __To Check If I am Alive !__✇")
+    await message.edit("**✇Updating✇ ⚜️ѕєиѕєιвσт⚜️** \n**✮Version✮** : `3.0` \n**🔱ᴛᴇʟᴇᴛʜᴏɴ🔱** : `6.0.9` \n**⚠️ᴄᴜʀʀᴇɴᴛ ʙʀᴀɴᴄʜ⚠️** : `↼🄼🄰🅂🅃🄴🅁⇀` \n**🛡️𝖘𝖙𝖆𝖙𝖚𝖘🛡️** : ` ♾pdating and Restarting ♾` \n__You Can Do__ `.alive` __To Check If I am Alive !__✇")
     remote.push(refspec=refspec)
     await bot.disconnect()
     os.execl(sys.executable, sys.executable, *sys.argv)
