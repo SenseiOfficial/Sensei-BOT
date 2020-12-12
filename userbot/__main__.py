@@ -31,7 +31,7 @@ else:
             api_id=Var.APP_ID,
             api_hash=Var.API_HASH
         ).start(bot_token=Var.TG_BOT_TOKEN_BF_HER)
-        print("Initialisation finished with no errors , Your ᔕᗴᑎᔕᗴᎥbot will be ready in sometime")
+        print("Initialisation finished with no errors , Your ⚜️─ѕєиѕєιвσт─⚜️ will be ready in sometime")
         print("Starting SᗴᑎᔕᗴᎥbot")
         bot.loop.run_until_complete(add_bot(Var.TG_BOT_USER_NAME_BF_HER))
         print("ᔕᗴᑎᔕᗴᎥbot's Startup Completed")
@@ -50,8 +50,8 @@ for name in files:
 
 import userbot._core
 
-print("➠ The G.O.A.T. Powerful ᔕᗴᑎᔕᗴᎥgbot is on fire 🔥. Check .alive to test that bot is functioning or not . Join https://t.me/SenseiMAXprojects for any assistance 👀  ")
-
+print(" ⇋【The G.O.A.T. ⚜️─ѕєиѕєιвσт─⚜️ is on fire 🔥. Check .alive to test that bot is functioning or not . 】⇌ ")
+ 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
 else:
