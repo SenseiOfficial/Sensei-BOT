@@ -91,4 +91,17 @@ async def unload(event):
 
 @bot.on(admin_cmd(pattern=r"load (?P<shortname>\w+)$"))
 async def load(event):
-
+    if event.fwd_from:
+        return
+    shortname = event.pattern_match["shortname"]
+    try:
+        try:
+            remove_plugin(shortname)
+        except BaseException:
+            pass
+        load_module(shortname)
+        await event.edit(f"Successfully loaded {shortname}")
+    except Exception as e:
+        await event.edit(
+            f"Sorry, could not load {shortname} because of the following error.\n{str(e)}"
+        )
