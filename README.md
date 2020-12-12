@@ -1,11 +1,11 @@
 <p align="center"><a href="https://t.me/senseiMAXprojects"><img src="https://telegra.ph/file/ef1273293223ca874ffec.gif" width="5000"></a></p> 
-<h1 align="center"><b>🇮🇳 ᔕᗴᑎᔕᗴᎥᗷᗝ丅 🇮🇳 </b></h1>
+<h1 align="center"><b>🇮🇳 ⚜️─ѕєиѕєιвσт─⚜️ 🇮🇳 </b></h1>
 
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 
-~ The G.O.A.T. Senseibot is again on fire 🔥. Deploy It now to experience the most smooth and fast telegram userbot. With more than 300+ Plugins to give a mind blowing experience and a lote more . Join the support channel for regular updates.
+~ The G.O.A.T. ⚜️─ѕєиѕєιвσт─⚜️ is again on fire 🔥. Deploy It now to experience the most smooth and fast telegram userbot. With more than 300+ Plugins to give a mind blowing experience and a lote more . Join the support channel for regular updates.
 💔💔 . 
 
 ## By Team ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ 
