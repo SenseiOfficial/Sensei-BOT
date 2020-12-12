@@ -1,4 +1,5 @@
 #IMG CREDITS: @Sensei_nex
+#some symbols credits goes tp @kraken_the_badass
 import asyncio
 from telethon import events
 from uniborg.util import admin_cmd
