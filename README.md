@@ -16,11 +16,6 @@
 
 <a href="https://t.me/SenseiMAXprojects"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
 
-## HOW TO DEPLOY 
-
-<a href="https://www.youtube.com/playlist?list=PLX1HgLA9qoirRYh8jrggvFfHbZVvF5W8B"><img src="https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube"></a>
-<a href="https://youtu.be/woeU5l76kHY"><img src="https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube"></a>
-
 
 ## Installing Heroku 
 
