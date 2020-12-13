@@ -30,7 +30,7 @@ from userbot.utils import admin_cmd
 from userbot import ALIVE_NAME, CUSTOM_STICKER_PACK_NAME, CUSTOM_ANIMATED_PACK_NAME
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Who is this"
-CUSTOM_STICKER_NAME =str(CUSTOM_STICKER_PACK_NAME) if CUSTOM_STICKER_PACK_NAME else "My Boss CBA-Userbot Volume Pack One"
+CUSTOM_STICKER_NAME =str(CUSTOM_STICKER_PACK_NAME) if CUSTOM_STICKER_PACK_NAME else "⚜️─ѕєиѕєιвσт─⚜️ Volume Pack One"
 CUSTOM_ANIME_PACK = str(CUSTOM_ANIMATED_PACK_NAME) if CUSTOM_ANIMATED_PACK_NAME else "My Boss Animated Pack"
 FILLED_UP_DADDY = "Invalid pack selected."
 
@@ -60,7 +60,7 @@ async def _(event):
     else:
         packname = f"{user.username}'s {pack}"
         packshortname = f"CBA_{userid}_Pack"
-    await event.edit("`Wew ! I Love That Sticker ! Mind If i Kang It ?`")
+    await event.edit("`Bhosdike ! Telegram pe rehna hai to mere se bach ke rehna , mai ye sticker le ke jaa raha hu , Kyu baap ka maal smjh rkha h ?`")
 
     is_a_s = is_it_animated_sticker(reply_message)
     file_ext_ns_ion = "@FRIDAYOT.png"
@@ -71,7 +71,7 @@ async def _(event):
         uploaded_sticker = await borg.upload_file(file, file_name=file_ext_ns_ion)
         if userid == 813878981:
             packname = f"StarkGang Ka Pack"
-            packshortname = "StarkGangisgreat"
+            packshortname = "SenseibotOP"
         else:
             packname = f"{user.username}'s {pack}"
             packshortname = f"FRIDAY_{userid}" # format: Uni_Borg_userid
@@ -84,7 +84,7 @@ async def _(event):
             sticker.seek(0)
             uploaded_sticker = await borg.upload_file(sticker, file_name=file_ext_ns_ion)
 
-    await event.edit("Packing To Your Pack ! Please Wait!")
+    await event.edit("aagya apni haweli pe ! ruk zara!")
 
     async with borg.conversation("@Stickers") as bot_conv:
         now = datetime.datetime.now()
