@@ -11,7 +11,7 @@ from userbot import ALIVE_NAME
 from userbot import bot
 
 DELETE_TIMEOUT = 5
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Senseibot user"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "⚜️─ѕєиѕєιвσт─⚜️ user"
 
 
 @bot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)", outgoing=True))
@@ -39,7 +39,7 @@ async def send(event):
         await asyncio.sleep(DELETE_TIMEOUT)
         await event.delete()
     else:
-        await edit_or_reply(event, "File not found.....u noob check whethe ryou typed correct or not")
+        await edit_or_reply(event, "Abbe Bhosdk ke jaada gaand na phulao ,File not found.....Jao jakr dekho whether you typed correct or not")
 
 @bot.on(admin_cmd(pattern="install"))
 async def install(event):
@@ -58,7 +58,7 @@ async def install(event):
                 shortname = path1.stem
                 load_module(shortname.replace(".py", ""))
                 await event.edit(
-                    "Plugin successfully installed\n @senseiMAxprojects `{}`".format(
+                    "Plugin successfully installed\n by ⚜️─ѕєиѕєιвσт─⚜️ `{}`".format(
                         os.path.basename(downloaded_file_name)
                     )
                 )
