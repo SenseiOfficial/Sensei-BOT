@@ -171,14 +171,14 @@ async def _(dyno):
              app = Heroku.app(Var.HEROKU_APP_NAME)
         except:
   	       return await dyno.reply(" Please make sure your Heroku API Key, Your App name are configured correctly in the heroku var !")
-        await dyno.edit("Downloading Logs..")
+        await dyno.edit("Downloading ⚠️─ѕєиѕєιвσт─⚠️ Logs..")
         with open('logs.txt', 'w') as log:
             log.write(app.get_log())
         await dyno.client.send_file(
             dyno.chat_id,
             "logs.txt",
             reply_to=dyno.id,
-            caption="logs of CBA Userbot",
+            caption="logs of ⚠️─ѕєиѕєιвσт─⚠️",
         )
         await dyno.edit("Sending logs here....")
         await asyncio.sleep(5)
