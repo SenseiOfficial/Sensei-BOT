@@ -2,11 +2,14 @@
 Syntax: .invite <User(s)>"""
 
 from telethon import functions
+
 from userbot.utils import admin_cmd
+
 """Invite the user(s) to the current chat
 Syntax: .invite <User(s)>"""
 
 from telethon import functions
+
 from userbot.utils import admin_cmd
 
 
@@ -23,11 +26,11 @@ async def _(event):
             # https://lonamiwebs.github.io/Telethon/methods/messages/add_chat_user.html
             for user_id in to_add_users.split(" "):
                 try:
-                    await borg(functions.messages.AddChatUserRequest(
-                        chat_id=event.chat_id,
-                        user_id=user_id,
-                        fwd_limit=1000000
-                    ))
+                    await borg(
+                        functions.messages.AddChatUserRequest(
+                            chat_id=event.chat_id, user_id=user_id, fwd_limit=1000000
+                        )
+                    )
                 except Exception as e:
                     await event.reply(str(e))
             await event.edit("Invited Successfully")
@@ -35,13 +38,15 @@ async def _(event):
             # https://lonamiwebs.github.io/Telethon/methods/channels/invite_to_channel.html
             for user_id in to_add_users.split(" "):
                 try:
-                    await borg(functions.channels.InviteToChannelRequest(
-                        channel=event.chat_id,
-                        users=[user_id]
-                    ))
+                    await borg(
+                        functions.channels.InviteToChannelRequest(
+                            channel=event.chat_id, users=[user_id]
+                        )
+                    )
                 except Exception as e:
                     await event.reply(str(e))
             await event.edit("Invited Successfully")
+
 
 # Sudo Module
 @borg.on(admin_cmd(pattern="invite ?(.*)", allow_sudo=True))
@@ -57,11 +62,11 @@ async def _(event):
             # https://lonamiwebs.github.io/Telethon/methods/messages/add_chat_user.html
             for user_id in to_add_users.split(" "):
                 try:
-                    await borg(functions.messages.AddChatUserRequest(
-                        chat_id=event.chat_id,
-                        user_id=user_id,
-                        fwd_limit=1000000
-                    ))
+                    await borg(
+                        functions.messages.AddChatUserRequest(
+                            chat_id=event.chat_id, user_id=user_id, fwd_limit=1000000
+                        )
+                    )
                 except Exception as e:
                     await event.reply(str(e))
             await borg.send_message("Invited Successfully")
@@ -69,10 +74,11 @@ async def _(event):
             # https://lonamiwebs.github.io/Telethon/methods/channels/invite_to_channel.html
             for user_id in to_add_users.split(" "):
                 try:
-                    await borg(functions.channels.InviteToChannelRequest(
-                        channel=event.chat_id,
-                        users=[user_id]
-                    ))
+                    await borg(
+                        functions.channels.InviteToChannelRequest(
+                            channel=event.chat_id, users=[user_id]
+                        )
+                    )
                 except Exception as e:
                     await event.reply(str(e))
             await borg.send_message("Invited Successfully")

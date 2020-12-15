@@ -1,28 +1,25 @@
 """Execute GNU/Linux commands inside Telegram
 Syntax: .exec Code"""
+import asyncio
 import io
 import sys
 import time
-import inspect
-import asyncio
 import traceback
-import subprocess
+
 from userbot import CMD_HELP
-from userbot.utils import admin_cmd,sudo_cmd
-from telethon import events, errors, functions, types
-from telethon.errors import MessageEmptyError, MessageTooLongError, MessageNotModifiedError
+from userbot.utils import admin_cmd, sudo_cmd
+
 
 @borg.on(admin_cmd(pattern="bash ?(.*)"))
 async def _(event):
     if event.fwd_from or event.via_bot_id:
         return
-    DELAY_BETWEEN_EDITS = 0.3
     PROCESS_RUN_TIME = 100
     cmd = event.pattern_match.group(1)
     reply_to_id = event.message.id
     if event.reply_to_msg_id:
         reply_to_id = event.reply_to_msg_id
-    start_time = time.time() + PROCESS_RUN_TIME
+    time.time() + PROCESS_RUN_TIME
     process = await asyncio.create_subprocess_shell(
         cmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
     )
@@ -37,23 +34,23 @@ async def _(event):
                 force_document=True,
                 allow_cache=False,
                 caption=cmd,
-                reply_to=reply_to_id
+                reply_to=reply_to_id,
             )
             await event.delete()
     else:
         await event.edit(OUTPUT)
-        
+
+
 @borg.on(admin_cmd(pattern="exec ?(.*)"))
 async def _(event):
     if event.fwd_from or event.via_bot_id:
         return
-    DELAY_BETWEEN_EDITS = 0.3
     PROCESS_RUN_TIME = 100
     cmd = event.pattern_match.group(1)
     reply_to_id = event.message.id
     if event.reply_to_msg_id:
         reply_to_id = event.reply_to_msg_id
-    start_time = time.time() + PROCESS_RUN_TIME
+    time.time() + PROCESS_RUN_TIME
     process = await asyncio.create_subprocess_shell(
         cmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
     )
@@ -77,11 +74,12 @@ async def _(event):
                 force_document=True,
                 allow_cache=False,
                 caption=cmd,
-                reply_to=reply_to_id
+                reply_to=reply_to_id,
             )
             await event.delete()
     else:
         await event.edit(OUTPUT)
+
 
 @borg.on(admin_cmd(pattern="eval"))
 async def _(event):
@@ -130,29 +128,28 @@ async def _(event):
                 force_document=True,
                 allow_cache=False,
                 caption=cmd,
-                reply_to=reply_to_id
+                reply_to=reply_to_id,
             )
             await event.delete()
     else:
         await event.edit(final_output)
 
-async def aexec(code, event):
-    exec(f'async def __aexec(event): ' +
-        ''.join(f'\n {l}' for l in code.split('\n'))
-        )
-    return await locals()['__aexec'](event)
 
-@borg.on(sudo_cmd(pattern="bash ?(.*)" ,allow_sudo=True))
+async def aexec(code, event):
+    exec(f"async def __aexec(event): " + "".join(f"\n {l}" for l in code.split("\n")))
+    return await locals()["__aexec"](event)
+
+
+@borg.on(sudo_cmd(pattern="bash ?(.*)", allow_sudo=True))
 async def _(event):
     if event.fwd_from or event.via_bot_id:
         return
-    DELAY_BETWEEN_EDITS = 0.3
     PROCESS_RUN_TIME = 100
     cmd = event.pattern_match.group(1)
     reply_to_id = event.message.id
     if event.reply_to_msg_id:
         reply_to_id = event.reply_to_msg_id
-    start_time = time.time() + PROCESS_RUN_TIME
+    time.time() + PROCESS_RUN_TIME
     process = await asyncio.create_subprocess_shell(
         cmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
     )
@@ -167,18 +164,21 @@ async def _(event):
                 force_document=True,
                 allow_cache=False,
                 caption=cmd,
-                reply_to=reply_to_id
+                reply_to=reply_to_id,
             )
             await event.delete()
     else:
         await event.reply(OUTPUT)
-        
-CMD_HELP.update({
-    "evaluators":".eval <expr>`:\
+
+
+CMD_HELP.update(
+    {
+        "evaluators": ".eval <expr>`:\
      \n**USAGE : **Execute Python script.\
      \n\n.exec <command>`:\
      \n**USAGE : **Execute a bash command on catuserbot server and shows details.\
      \n\n.bash <command>`:\
      \n**USAGE : **Execute a bash command on catuserbot server and  easy to copy output\
      "
-})
+    }
+)

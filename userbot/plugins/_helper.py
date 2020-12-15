@@ -1,10 +1,9 @@
 from userbot import CMD_LIST
 from userbot.utils import admin_cmd
-import sys
-from telethon import events, functions, __version__
+
 
 @command(pattern="^.help ?(.*)")
-#@borg.on(admin_cmd(pattern=r"help ?(.*)"))
+# @borg.on(admin_cmd(pattern=r"help ?(.*)"))
 async def cmd_list(event):
     if not event.text[0].isalpha() and event.text[0] not in ("/", "#", "@", "!"):
         tgbotusername = Var.TG_BOT_USER_NAME_BF_HER
@@ -26,7 +25,7 @@ async def cmd_list(event):
                         force_document=True,
                         allow_cache=False,
                         caption="**COMMANDS**",
-                        reply_to=reply_to_id
+                        reply_to=reply_to_id,
                     )
                     await event.delete()
             else:
@@ -44,15 +43,13 @@ async def cmd_list(event):
             help_string = """Userbot Helper.. \nProvided by [⚜️─ѕєиѕєιвσт─⚜️](https://t.me/SenseiMAXprojects)\n`🔱 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 𝐇𝐞𝐥𝐩𝐞𝐫 𝐢𝐧 𝐚𝐬𝐬𝐢𝐬𝐭𝐢𝐧𝐠 𝐲𝐨𝐮 𝐡𝐨𝐰 𝐭𝐨 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐚𝐧𝐝 𝐭𝐨 𝐫𝐞𝐯𝐞𝐚𝐥 𝐚𝐥𝐥 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐲𝐨𝐮 𝐫𝐞𝐪𝐮𝐢𝐫𝐞
 🔱`"""
             results = await bot.inline_query(  # pylint:disable=E0602
-                tgbotusername,
-                help_string
+                tgbotusername, help_string
             )
             await results[0].click(
-                event.chat_id,
-                reply_to=event.reply_to_msg_id,
-                hide_via=True
+                event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True
             )
             await event.delete()
+
 
 @borg.on(admin_cmd(pattern="syntax (.*)"))
 async def _(event):

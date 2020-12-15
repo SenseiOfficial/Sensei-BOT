@@ -1,5 +1,6 @@
 import os
 
+
 class Var(object):
     APP_ID = int(os.environ.get("APP_ID", 6))
     # 6 is a placeholder
@@ -12,7 +13,9 @@ class Var(object):
     GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
     # Here for later purposes
     SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "1097131648").split())
-    WHITELIST_USERS = set(int(x) for x in os.environ.get("WHITELIST_USERS", "832241419").split())
+    WHITELIST_USERS = set(
+        int(x) for x in os.environ.get("WHITELIST_USERS", "832241419").split()
+    )
     BLACKLIST_USERS = set(int(x) for x in os.environ.get("BLACKLIST_USERS", "").split())
     DEVLOPERS = set(int(x) for x in os.environ.get("DEVLOPERS", "719195224").split())
     OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "813878981").split())
@@ -30,7 +33,7 @@ class Var(object):
     AUTH_TOKEN_DATA = os.environ.get("AUTH_TOKEN_DATA", None)
     if AUTH_TOKEN_DATA != None:
         os.makedirs(TEMP_DOWNLOAD_DIRECTORY)
-        t_file = open(TEMP_DOWNLOAD_DIRECTORY+"auth_token.txt","w")
+        t_file = open(TEMP_DOWNLOAD_DIRECTORY + "auth_token.txt", "w")
         t_file.write(AUTH_TOKEN_DATA)
         t_file.close()
     PRIVATE_GROUP_ID = os.environ.get("PRIVATE_GROUP_ID", None)
@@ -38,8 +41,11 @@ class Var(object):
         try:
             PRIVATE_GROUP_ID = int(PRIVATE_GROUP_ID)
         except ValueError:
-            raise ValueError("Invalid Private Group ID. Make sure your ID is starts with -100 and make sure that it is only numbers.")
-     
+            raise ValueError(
+                "Invalid Private Group ID. Make sure your ID is starts with -100 and make sure that it is only numbers."
+            )
+
+
 class Development(Var):
     LOGGER = True
     # Here for later purposes
