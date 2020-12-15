@@ -1,5 +1,4 @@
-Avaible commands: .stickertoimage
-"""
+#code by @sensei_nex for senseibot
 import datetime
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
