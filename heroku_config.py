@@ -39,7 +39,7 @@ class Var(object):
     PRIVATE_GROUP_ID = os.environ.get("PRIVATE_GROUP_ID", None)
     if PRIVATE_GROUP_ID != None:
         try:
-            PRIVATE_GROUP_ID = int(PRIVATE_GROUP_ID)
+            PRIVATE_GROUP_ID = int(JASS)
         except ValueError:
             raise ValueError(
                 "Invalid Private Group ID. Make sure your ID is starts with -100 and make sure that it is only numbers."
