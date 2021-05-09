@@ -20,7 +20,8 @@
 ## Installing Heroku 
 
 ### The Easy Way
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/B-Lac2/B-Lac2-Userbot)
+[![Deploy To Heroku] )](https://heroku.com/deploy?template=https://github.com/SenseiOfficial/Sensei-BOT/)
+
 
 # Sting session 
 
