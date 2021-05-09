@@ -11,7 +11,7 @@
 💔💔 . 
 
 ## By Team ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ 
-<p align="center"><a href="https://t.me/senseiMAXprojects"><img src="https://telegra.ph/file/0dab3b3bf4383a2289d59.png" width="5000"></a></p> 
+<p align="center"><a href="https://t.me/senseiMAXprojects"><img src="https:https://telegra.ph/file/3ccaaaa11ad15e10f6647.jpg width="5000"></a></p> 
 
 
 ## Join our Support Channel and Group regrading bug fixes
