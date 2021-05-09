@@ -7,7 +7,7 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 
-~ The G.O.A.T. ⚜️─ѕєиѕєιвσт─⚜️ is again on fire 🔥. Deploy It now to experience the most smooth and fast telegram userbot. With more than 300+ Plugins to give a mind blowing experience and a lote more . Join the support channel for regular updates.
+~ The 𝐁.𝐋.𝐀.𝐂. ⚜️─𝐁𝐋𝐀𝐂 2.0─⚜️ is again on fire 🔥. Deploy It now to experience the most smooth and fast telegram userbot. With more than 300+ Plugins to give a mind blowing experience and a lote more . Join the support channel for regular updates.
 💔💔 . 
 
 ## By Team #𝐁𝐋𝐀𝐂 2.0 𝐔𝐒𝐄𝐑𝐁𝐎𝐓
@@ -62,6 +62,6 @@ Fortunately there are no Mandatory vars for the UniBorg Support Config.
    
      
   
- -[Hellboy](https://github.com/HellBoy-OP)
+
    
 
