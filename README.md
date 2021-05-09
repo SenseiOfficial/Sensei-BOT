@@ -10,8 +10,8 @@
 ~ The G.O.A.T. ⚜️─ѕєиѕєιвσт─⚜️ is again on fire 🔥. Deploy It now to experience the most smooth and fast telegram userbot. With more than 300+ Plugins to give a mind blowing experience and a lote more . Join the support channel for regular updates.
 💔💔 . 
 
-## By Team ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ 
-<p align="center"><a href="https://t.me/senseiMAXprojects"><img src="https:https://telegra.ph/file/3ccaaaa11ad15e10f6647.jpg width="5000"></a></p> 
+## By Team #𝐁𝐋𝐀𝐂 2.0 𝐔𝐒𝐄𝐑𝐁𝐎𝐓
+
 
 
 ## Join our Support Channel and Group regrading bug fixes
