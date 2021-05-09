@@ -49,8 +49,8 @@ Fortunately there are no Mandatory vars for the UniBorg Support Config.
     - `API_HASH`:   You can get this value from https://my.telegram.org or @UseTGXBot
 - The userbot will not work without setting the mandatory vars.
 
-## CREDITS
-   -[𝐁𝐋𝐀𝐂 𝐉𝐀𝐒𝐒]🔥🔥 Owner of this BOT 🔥🔥
+## 
+![Sensei](https://telegra.ph/file/3ccaaaa11ad15e10f6647.jpg)🔥 Owner of this BOT 🔥🔥
          
 
 
