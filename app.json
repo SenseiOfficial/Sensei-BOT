@@ -1,113 +1,71 @@
-{  "name": "BLAC_2.0",
-  "description": "The B.L.A.C. userbot created by @JATTGAMINGYT11 for boosting your tg experience",
-  "https://telegra.ph/file/3ccaaaa11ad15e10f6647.jpg
-
-    "keywords": [
-    "telegram",
-    "userbot",
-    "plugin",
-    "modular",
-    "productivity"
-  ],
-  "repository": "BLAC 2.0 BOY",
-  "website": "#TODO",
-  "success_url": "#TODO",
-  "env": {
-    "ENV": {
-      "description": "Setting this to ANYTHING will enable heroku.",
-      "value": "ANYTHING"
-    },
-    "TEMP_DOWNLOAD_DIRECTORY": {
-      "description": "Where downloaded files will go.",
-      "value": "./userbot/DOWNLOADS/",
-      "required": false
-    },
-    "CUSTOM_PMPERMIT": {
-      "description": "Enter Custom Middle Pm Permit To Show When Some One PM You.",
-      "value": "",
-      "required": false
-    },
-    "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @JATTGAMINGYT11.",
-      "value": ""
-    },
-    "APP_ID": {
-      "description": "Get this value from my.telegram.org or @ApiHashBot! Please do not steal",
-      "value": ""
-    },
-     "API_HASH": {
-      "description": "Get this value from my.telegram.org or @ApiHashBot! Please do not steal",
-      "value": ""
-
-     },
-      "REM_BG_API_KEY": {
-      "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
-      "value": "",
-      "required": false
-
-    },
-    "LYDIA_API_KEY": {
-      "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
-      "value": "",
-      "required": false
-
-    },
-    "PLUGIN_CHANNEL": {
-      "description": "Create a private group add rose  then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": ""
-
-    },
-    "PRIVATE_GROUP_ID": {
-      "description": "Create a private group add rose bot then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": ""
-
-    },
-    "STRING_SESSION": {
-      "description": "Get this value from https://repl.it/@JATTGAMINGYT11/String-Session-1/",
-      "value": ""
-
-    },
-    "GITHUB_ACCESS_TOKEN": {
-      "description": "Your Github Access Token for gitcommit plugin.Google 'Github access token' to find.",
-      "value": "",
-      "required": false
-    },
-    "GIT_REPO_NAME": {
-      "description": "Your repo name Example: @JATTGAMINGYT11 /BLAC-BOT, but GITHUB_ACCESS_TOKEN must be setup first.",
-      "value": "",
-      "required": false
-    },
-    "LYDIA_API_KEY": {
-      "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
-      "value": "",
-      "required": false
-    },
-    "HEROKU_API_KEY": {
-      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
-      "value": ""
-    },
-    "HEROKU_APP_NAME": {
-      "description": "The Value of App Name you filled in right on top.Required for updater to work.",
-      "value": ""
-    },
-    "TG_BOT_TOKEN_BF_HER": {
-      "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn of inline Mode on bot settings. Get it.",
-      "value": ""
-    },
-    "SUDO_USERS": {
-      "description": "Makes your acc and bot stable",
-      "value": "1497444389",
-      "required": false
-    },
-    "CHROME_BIN": {
-      "description": "For Carbon.py. Leave as it is. ",
-      "value": "/app/.apt/usr/bin/google-chrome",
-      "required": false
-    },
-    "CHROME_DRIVER": {
-      "description": "For Carbon.py. Leave as it is. ",
-      "value": "/app/.chromedriver/bin/chromedriver",
-      "required": false
-    },
-    "TG_BOT_USER_NAME_BF_HER": {
-      "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the username of your bot",
+"value": "-1001181795599",
+    "required": true 
+   },
+   "SUDO_USERS": {
+    "description": "Users you want to give access to your bot. (Don't allow unknown people)",
+    "value": "",
+    "required": false
+   },
+   "PRIVATE_GROUP_ID": {
+    "description": "Same value as PRIVATE_GROUP_BOT_API_ID. Must read https://telegra.ph/userbot-Setup-06-06 for knowing how to get the value. Required for pmpermit.",
+    "value": "",
+    "required": true
+   },
+   "HEROKU_APP_NAME": {
+    "description": "The Value of App Name you filled in right on top.Required for updater to work.",
+    "value": "",
+    "required": true
+   },
+   "TG_BOT_TOKEN_BF_HER": {
+    "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. Get it else .help won't work.",
+    "value": "1637818217:AAGjnlELbCu17NmIQKK082NNvAd3COj8bXA",
+    "required": true
+   },
+   "TG_BOT_USER_NAME_BF_HER": {
+    "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the username of your bot. Needed for .help to work.",
+    "value": "@BLAC_PUBLIC_BOT",
+    "required": true
+   },
+   "ALIVE_NAME": {
+    "description": "Your Telegram Username. ",
+    "value": "BLAC_USERBOT_USER",
+    "required": false
+   },  
+   "MAX_SPAM": {
+    "description": "Number of messages one can send in your PM before being approved. By default, it is 3.",
+    "value": "3",
+    "required": false
+   },
+   "OCR_SPACE_API_KEY": {
+    "description": "Required for OCR functionality. Get from https://ocr.space/ocrapi",
+    "value": "",
+    "required": false
+   },
+   "REM_BG_API_KEY": {
+    "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
+    "value": "",
+    "required": false
+   },
+   "ALIVE_PIC": {
+    "description": "telegra.ph link to theimage you want as alive pic, leave blank for sticker",
+    "value": "https://telegra.ph/file/76daded01da7289d0bd4d.jpg",
+    "required": false
+   },
+   "PMPERMIT_PIC": {
+   "description": "telegra.ph link to theimage you want as pmpermit pic, leave blank for default one!",
+   "value": "https://telegra.ph/file/946aa5614cf6d361fc4eb.jpg",
+   "required": false
+   },
+   "TZ": {
+    "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
+    "value": "kolkata",
+    "required": false
+   }
+  },
+  "addons": [{
+   "plan": "heroku-postgresql",
+   "options": {
+    "version": "12"
+   }
+  }]
+ }
