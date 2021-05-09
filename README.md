@@ -1,5 +1,6 @@
 # 𝐁𝐋𝐀𝐂 𝐁𝐎𝐓  𝐁 𝐋𝐀𝐂  2.0  𝐔𝐒𝐄𝐑𝐁𝐎𝐓 🇨🇦
 
+#𝐉𝐏𝐆  https://telegra.ph/file/3ccaaaa11ad15e10f6647.jpg
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
