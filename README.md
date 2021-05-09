@@ -12,6 +12,8 @@
 
 ## By Team #𝐁𝐋𝐀𝐂 2.0 𝐔𝐒𝐄𝐑𝐁𝐎𝐓
 
+![Sensei](https://telegra.ph/file/3ccaaaa11ad15e10f6647.jpg)
+
 
 
 ## Join our Support Channel and Group regrading bug fixes
@@ -50,7 +52,7 @@ Fortunately there are no Mandatory vars for the UniBorg Support Config.
 - The userbot will not work without setting the mandatory vars.
 
 ## 
-![Sensei](https://telegra.ph/file/3ccaaaa11ad15e10f6647.jpg)🔥 Owner of this BOT 🔥🔥
+ 𝐁 𝐥𝐚𝐜 𝐣𝐚𝐬𝐬🔥 Owner of this BOT 🔥🔥
          
 
 
