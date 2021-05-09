@@ -16,10 +16,6 @@
 
 
 
-## Join our Support Channel and Group regrading bug fixes
-
-<a href="https://t.me/SenseiMAXprojects"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-
 
 ## Installing Heroku 
 
