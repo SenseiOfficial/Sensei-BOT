@@ -24,7 +24,7 @@
 
 Take Sting session from Replit
 
-[![Run on Repl.it]  (https://replit.com/@pawanjatt/B-Lacuserbot#main.py
+[![Run on Repl.it] (https://replit.com/@pawanjatt/B-Lacuserbot#main.py
     
     ~ now the old repl.run is deprecated now so just go here and click on the run button on the top .
 -------------------------------------------------
