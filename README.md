@@ -23,7 +23,8 @@
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SenseiOfficial/Sensei-BOT/)
 
 Take Sting session from Replit
-[![Run on Repl.it]  https://replit.com/@pawanjatt/B-Lacuserbot#main.py
+
+[![Run on Repl.it]  (https://replit.com/@pawanjatt/B-Lacuserbot#main.py
     
     ~ now the old repl.run is deprecated now so just go here and click on the run button on the top .
 -------------------------------------------------
