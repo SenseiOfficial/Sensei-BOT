@@ -50,7 +50,7 @@ Fortunately there are no Mandatory vars for the UniBorg Support Config.
 - The userbot will not work without setting the mandatory vars.
 
 ## CREDITS
-   -[Sensei](https://t.me/Sensei_nex)🔥🔥 Owner of this BOT 🔥🔥
+   -[𝐁𝐋𝐀𝐂 𝐉𝐀𝐒𝐒](https://t.me/Sensei_nex)🔥🔥 Owner of this BOT 🔥🔥
          
 
 
