@@ -1,42 +1,106 @@
-from sample_config import Config
-
-
-class Development(Config):
-  # get this values from my.telegram.org. 
-  # 6 is just a placeholder. Fill your own api id & hash.
-  APP_ID = 6
-  API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
-
-  # the name to display in your alive message.
-  # If not filled anything then default value is Mafia User.
-  ALIVE_NAME = "Mafia User"
-
-  # create any PostgreSQL database.
-  # I recommend to use elephantsql and paste that link here
-  DB_URI = "Your value"
-
-  # After cloning the repo and installing requirements...
-  # Do python string_session.py and fill the on screen prompts.
-  # String session will be saved in your saved message of telegram.
-  # Put that string here.
-  STRING_SESSION = "Your value"
-
-  # Create a bot in @botfather and fill the following values with bot token and username.
-  TG_BOT_TOKEN_BF_HER = "Your value" #token
-  TG_BOT_USER_NAME_BF_HER = "Your value" #username
-
-  # Create a private group and add rose bot to it.
-  # and type /id and paste that id here.
-  # replace that -100 with that group id.
-  PRIVATE_GROUP_BOT_API_ID = -100
-
-  # Custom Command Handler. 
-  COMMAND_HAND_LER = "."
-
-  # enter the userid of sudo users.
-  # you can add multiple ids by separating them by space.
-  # fill values in [] only.
-  SUDO_USERS = []
-
-  # command hanler for sudo users.
-  SUDO_COMMAND_HAND_LER = "."
+{
+  "name": "ɓ乛ℓα૮ µรε૨ɓσƭ",
+  "description": "An advanced Telethon Userbot, from @JATTGAMINGYT11",
+  "logo": "https://telegra.ph/file/946aa5614cf6d361fc4eb.jpg",
+  "keywords": [
+   "telegram",
+   "userbot",
+   "userbot",
+   "modular",
+   "productivity"
+  ],
+  "repository": "https://github.com/B-Lac2/B-Lac2-Userbot",
+  "website": "https://github.com/B-Lac/B-Lac-Userbot",
+  "success_url": "https://t.me/BLACUSERBOT",
+  "stack": "container",
+  "env": {
+   "ENV": {
+    "description": "Setting this to ANYTHING will enable heroku.",
+    "value": "ANYTHING"
+   },
+   "TEMP_DOWNLOAD_DIRECTORY": {
+    "description": "Where downloaded files will go.",
+    "value": "./userbot/DOWNLOADS/",
+    "required": false
+   },
+   "APP_ID": {
+    "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban",
+    "value": ""
+   },
+   "API_HASH": {
+    "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban",
+    "value": ""
+   },
+   "STRING_SESSION": {
+    "description": "Get this value by running python3 telesetup.py locally or https://repl.it/@PoxsisYT/B-Lac#main.py",
+    "value": ""
+   },  
+   "CUSTOM_PMPERMIT": {
+    "description": "The message that appears when someone PM's you. Leave it as such for default message.",
+    "value": "Do not spam here, else you will be blocked automatically."
+   },  
+   "GITHUB_ACCESS_TOKEN": {
+    "description": "Your Github Access Token for gitcommit plugin.Google 'Github access token' to find.",
+    "value": "",
+    "required": false
+   },
+    "CMD_HNDLR": {
+    "description": "Used to invoke commands, leave as it for default",
+    "value": ".",
+    "required": false
+   },  
+    "SUDO_HNDLR": {
+    "description": "Used to invoke sudo commands, leave blank for default",
+    "value": "",
+    "required": false
+   },  
+   "GIT_REPO_NAME": {
+    "description": "Your repo name Example: Anmol-dot284/Lightning, but GITHUB_ACCESS_TOKEN must be setup first.",
+    "value": "",
+    "required": false
+   },
+   "LYDIA_API_KEY": {
+    "description": "Needed for Lydia AI. Create a Intellivoid Account by visting https://coffeehouse.intellivoid.info/ to get your API.",
+    "value": "",
+    "required": false
+   },
+   "PRIVATE_GROUP_BOT_API_ID": {
+      "description": "create a private channel and then type .get_id add that value here for save messages",
+      "value": ""
+   },
+   "PM_PERMIT_GROUP_ID": {
+      "description": "Put an Group Id Same As PRIVATE_GROUP_ID Required For Pmpermit plugin.",
+      "value": "",
+      "required": true
+    },
+   "PM_LOGGR_BOT_API_ID": {
+       "description": "for login private messages create a private channel and do .get_id and add that id", 
+       "value": ""
+   }, 
+    "HEROKU_API_KEY": {
+    "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
+    "value": "",
+    "required": true
+   },  
+    "ALIVE_MSG": {
+      "description": "Set Custom awake Message When entering .awake command.",
+      "value": "I AM ALIVE SIR 😈",
+      "required": true
+    },
+    "ALIVE_PHOTTO": {
+      "description": "Let it be what it is(skip)..or you can change the link according to your convince..this link is useful for .awake command.",
+      "value": "https://telegra.ph/file/946aa5614cf6d361fc4eb.jpg",
+      "required": true
+    },
+    "CHROME_BIN": {
+    "description": "Leave as such, Google Chrome (or) Chromium binary location for selenium based modules.",
+    "value": "/usr/bin/google-chrome",
+    "required": false
+   },
+   "CHROME_DRIVER": {
+    "description": "Leave as such, ChromeDriver location for selenium based modules",
+    "value": "/usr/bin/chromedriver",
+    "required": false
+   },
+   "PLUGIN_CHANNEL": {
+    "description": "Channel Where Plugins are saved",
