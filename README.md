@@ -1,4 +1,5 @@
-<p align="center"><a href="https://t.me/senseiMAXprojects"><img src="https://telegra.ph/file/ef1273293223ca874ffec.gif" width="5000"></a></p> 
+<p align="center"><a href="https://t.me/senseiMAXprojects"><img src="https://telegra.ph/file/3ccaaaa11ad15e10f6647.jpg
+ width="5000"></a></p> 
 <h1 align="center"><b>🇮🇳 ⚜️─ѕєиѕєιвσт─⚜️ 🇮🇳 </b></h1>
 
 
