@@ -53,7 +53,7 @@ Fortunately there are no Mandatory vars for the UniBorg Support Config.
 
 
 
-![Sensei](https://telegra.ph/file/df6dbf1af0d780e38d33c.gif)
+![Sensei](https://telegra.ph/file/3ccaaaa11ad15e10f6647.jpg)
    
      
   
