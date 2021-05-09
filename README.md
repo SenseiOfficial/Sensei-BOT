@@ -1,5 +1,4 @@
-<p align="center"><a href="https://t.me/senseiMAXprojects"><img src https://telegra.ph/file/3ccaaaa11ad15e10f6647.jpg
- width="5000"></a></p>     𝐁𝐋𝐀𝐂 2.0 𝐔𝐒𝐄𝐑𝐁𝐎𝐓  ><b>🇮🇳 ⚜️─ѕєиѕєιвσт─⚜️ 🇮🇳 </b></h1>
+<p 𝐁 𝐋𝐀𝐂  2.0  𝐔𝐒𝐄𝐑𝐁𝐎𝐓
 
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
