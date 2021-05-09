@@ -26,7 +26,8 @@
 
 
 
-[![Run on Repl.it](https://repl.it/@pawanjatt/B-Lacuserbot#main.py)
+[![Run on Repl.it](https://repl.it/badge/github/STARKGANG/friday)](https://repl.it/@pawanjatt/B-Lacuserbot#main.py)
+
 
     
     ~ now the old repl.run is deprecated now so just go here and click on the run button on the top .
