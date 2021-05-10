@@ -12,15 +12,12 @@
 
 ## By Team #𝐁𝐋𝐀𝐂 2.0 𝐔𝐒𝐄𝐑𝐁𝐎𝐓
 
-![Sensei](https://telegra.ph/file/3ccaaaa11ad15e10f6647.jpg
+![Sensei](https://telegra.ph/file/3ccaaaa11ad15e10f6647.jpg)
 
 # Installing Heroku 
 
 ### The Easy Way
-[![Deploy to heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy
-
-
-# Sting session 
+[![Deploy to heroku] https://github.com/JASS697/Sensei-BOT
 
 
 
