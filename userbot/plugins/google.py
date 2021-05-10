@@ -20,7 +20,7 @@ def progress(current, total):
 
 @borg.on(admin_cmd("go (.*)"))
 async def gsearch(q_event):
-    """ For .google command, do a Google search. """
+    """For .google command, do a Google search."""
     match = q_event.pattern_match.group(1)
     page = findall(r"page=\d+", match)
     try:
