@@ -17,7 +17,8 @@
 # Installing Heroku 
 
 ### The Easy Way
-[![Deploy to heroku] https://https://github.com/JASS697/Sensei-BOT
+[![Deploy to heroku] (https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SenseiOfficial/Sensei-BOT/)
+
 
 
 
