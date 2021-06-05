@@ -19,8 +19,8 @@
 
 ## Installing Heroku 
 
-### The Easy Way
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SenseiOfficial/Sensei-BOT/)
+## Deploy
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FSensieOfficial%2FHEROKU&template=https%3A%2F%2Fgithub.com%2FSensieOfficial%2FHEROKU)
 
 Take Sting session from Replit
 [![Run on Repl.it](https://repl.it/badge/github/spandey112/SensibleUserbot)](https://repl.it/@SenseiOfficial/String-Session-1)
