@@ -38,7 +38,7 @@ async def gspider(userbot):
     if user:
         if user.id == 1263617196:
             return await friday.edit(
-                f"**Didn't , Your Father Teach You ? That You Cant Gban Dev**"
+                f"**Didn't , Your Father Teach You ? That You Cant Gban This is your userbot Developer**"
             )
         try:
             from userbot.modules.sql_helper.gmute_sql import gmute
@@ -57,7 +57,7 @@ async def gspider(userbot):
             try:
                 await userbot.client.edit_permissions(i, user, view_messages=False)
                 a += 1
-                await friday.edit(f"**GBANNED // Total Affected Chats **: `{a}`")
+                await friday.edit(f"**Globally BANNED 😽 // Total Affected Chats **: `{a}`")
             except:
                 b += 1
     else:
