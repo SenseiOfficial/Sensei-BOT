@@ -12,7 +12,7 @@
 <p align="center"><a href="https://t.me/senseiMAXprojects"><img src="https://telegra.ph/file/0dab3b3bf4383a2289d59.png" width="5000"></a></p> 
 
 
-## Join our Support Channel and Group regrading bug fixes
+### Join our Support Channel and Group regrading bug fixes
 
 <a href="https://t.me/SenseiMAXprojects"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
 
