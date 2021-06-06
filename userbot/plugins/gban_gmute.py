@@ -57,7 +57,9 @@ async def gspider(userbot):
             try:
                 await userbot.client.edit_permissions(i, user, view_messages=False)
                 a += 1
-                await friday.edit(f"**Globally BANNED 😽 // Total Affected Chats **: `{a}`")
+                await friday.edit(
+                    f"**Globally BANNED 😽 // Total Affected Chats **: `{a}`"
+                )
             except:
                 b += 1
     else:
